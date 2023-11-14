@@ -1,0 +1,147 @@
+.headerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 115px;
+}
+.headerInner,
+.headerItem {
+  position: absolute;
+  top: 12px;
+  height: 90px;
+}
+.headerItem {
+  left: 44px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-black);
+  width: 99px;
+}
+.headerInner {
+  left: 218px;
+  background-color: var(--color-peru);
+  width: 655px;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 30px;
+  left: 244px;
+  width: 47px;
+  height: 54px;
+  object-fit: cover;
+}
+.notifikasi,
+.perpustkaan,
+.profil,
+.search,
+.tulis {
+  position: absolute;
+  top: 41px;
+  left: 329px;
+  display: inline-block;
+  width: 168px;
+  height: 33px;
+}
+.notifikasi,
+.perpustkaan,
+.profil,
+.tulis {
+  left: 880px;
+  width: 82px;
+}
+.notifikasi,
+.perpustkaan,
+.tulis {
+  left: 1254px;
+  width: 206px;
+}
+.perpustkaan,
+.tulis {
+  left: 971px;
+  width: 183px;
+}
+.tulis {
+  left: 1163px;
+  width: 82px;
+}
+.header,
+.notifikasiChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1460px;
+  height: 115px;
+}
+.notifikasiChild {
+  top: 13px;
+  left: 27px;
+  border-radius: var(--br-12xl);
+  background-color: var(--color-black);
+  width: 69px;
+  height: 62px;
+}
+.useraMemberiVote {
+  position: absolute;
+  top: 21px;
+  left: 160px;
+  font-weight: 600;
+  display: inline-block;
+  width: 1193px;
+  height: 46px;
+}
+.notifikasiItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1326px;
+  height: 89px;
+}
+.notifikasi1,
+.notifikasi5 {
+  position: absolute;
+  top: 158px;
+  left: 58px;
+  width: 1353px;
+  height: 89px;
+}
+.notifikasi5 {
+  top: 128px;
+  left: 0;
+}
+.notifikasi2,
+.notifikasi3,
+.notifikasi4 {
+  position: absolute;
+  top: 134px;
+  left: 0;
+  width: 1353px;
+  height: 217px;
+}
+.notifikasi2,
+.notifikasi3 {
+  top: 133px;
+  height: 351px;
+}
+.notifikasi2 {
+  top: 290px;
+  left: 58px;
+  height: 484px;
+}
+.notif {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

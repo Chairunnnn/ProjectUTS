@@ -1,0 +1,158 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 1024px;
+}
+.groupItem {
+  position: absolute;
+  top: 538px;
+  left: 44px;
+  width: 266px;
+  height: 396px;
+  object-fit: cover;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+}
+.berandaChild,
+.berandaItem {
+  position: absolute;
+  top: 538px;
+  left: 413px;
+  width: 266px;
+  height: 396px;
+}
+.berandaChild {
+  background-color: var(--color-peru);
+}
+.berandaItem {
+  object-fit: cover;
+}
+.berandaInner {
+  left: 782px;
+  background-color: var(--color-peru);
+}
+.berandaChild1,
+.berandaInner,
+.rectangleDiv,
+.rectangleIcon {
+  position: absolute;
+  top: 538px;
+  width: 266px;
+  height: 396px;
+}
+.rectangleDiv {
+  left: 1151px;
+  background-color: var(--color-peru);
+}
+.berandaChild1,
+.rectangleIcon {
+  left: 782px;
+  object-fit: cover;
+}
+.berandaChild1 {
+  left: 1151px;
+}
+.headerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 115px;
+}
+.headerInner,
+.headerItem {
+  position: absolute;
+  top: 12px;
+  height: 90px;
+}
+.headerItem {
+  left: 44px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-black);
+  width: 99px;
+}
+.headerInner {
+  left: 218px;
+  background-color: var(--color-peru);
+  width: 655px;
+}
+.headerChild1 {
+  position: absolute;
+  top: 30px;
+  left: 244px;
+  width: 47px;
+  height: 54px;
+  object-fit: cover;
+}
+.notifikasi,
+.perpustkaan,
+.profil,
+.search,
+.tulis {
+  position: absolute;
+  top: 41px;
+  left: 329px;
+  display: inline-block;
+  width: 168px;
+  height: 33px;
+}
+.notifikasi,
+.perpustkaan,
+.profil,
+.tulis {
+  cursor: pointer;
+  text-decoration: none;
+  left: 880px;
+  color: inherit;
+  width: 82px;
+}
+.notifikasi,
+.perpustkaan,
+.tulis {
+  left: 1254px;
+  width: 206px;
+}
+.perpustkaan,
+.tulis {
+  left: 971px;
+  width: 183px;
+}
+.tulis {
+  left: 1163px;
+  width: 82px;
+}
+.berandaChild2,
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1460px;
+  height: 115px;
+}
+.berandaChild2 {
+  top: 188px;
+  left: 101px;
+  width: 1237px;
+  height: 246px;
+  object-fit: cover;
+}
+.beranda {
+  position: relative;
+  background-color: var(--color-peru);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

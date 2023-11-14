@@ -1,0 +1,82 @@
+.loginChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  width: 1440px;
+  height: 1024px;
+}
+.loginItem {
+  position: absolute;
+  top: 150px;
+  left: 477px;
+  border-radius: 30px;
+  background-color: var(--color-white);
+  width: 486px;
+  height: 724px;
+}
+.password,
+.username,
+.welcome {
+  position: absolute;
+  top: 267px;
+  left: 600px;
+  display: inline-block;
+  font-weight: 600;
+  width: 286px;
+  height: 61px;
+}
+.password,
+.username {
+  top: 463px;
+  left: 532px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  width: 167px;
+  height: 13px;
+}
+.password {
+  top: 566px;
+}
+.loginInner,
+.rectangleTextfield {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 486px;
+  left: 512px;
+}
+.rectangleTextfield {
+  top: 591px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 696px;
+  left: 616px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-peru);
+  width: 208px;
+  height: 83px;
+}
+.login1 {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% + 198px);
+  left: calc(50% - 83px);
+  color: var(--color-white);
+  display: inline-block;
+  width: 166px;
+  height: 55px;
+}
+.login {
+  position: relative;
+  background-color: var(--color-peru);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

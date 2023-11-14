@@ -1,0 +1,186 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 1024px;
+}
+.groupItem {
+  position: absolute;
+  top: 538px;
+  left: 44px;
+  width: 266px;
+  height: 396px;
+  object-fit: cover;
+}
+.title {
+  position: absolute;
+  top: 934px;
+  left: 115px;
+  display: inline-block;
+  font-weight: 600;
+  width: 123px;
+  height: 56px;
+}
+.groupDiv,
+.rectangleParent {
+  position: absolute;
+  top: -167px;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+}
+.groupDiv {
+  top: 0;
+  left: 310px;
+}
+.headerChild,
+.rectangleContainer,
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 310px;
+  width: 1750px;
+  height: 1024px;
+}
+.headerChild,
+.rectangleGroup {
+  top: -167px;
+  width: 2060px;
+}
+.headerChild {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 115px;
+}
+.headerInner,
+.headerItem {
+  position: absolute;
+  top: 12px;
+  height: 90px;
+}
+.headerItem {
+  left: 44px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-black);
+  width: 99px;
+}
+.headerInner {
+  left: 218px;
+  background-color: var(--color-peru);
+  width: 655px;
+}
+.headerChild1 {
+  top: 30px;
+  left: 244px;
+  width: 47px;
+  height: 54px;
+  object-fit: cover;
+}
+.headerChild1,
+.profil,
+.search {
+  position: absolute;
+}
+.search {
+  top: 41px;
+  left: 329px;
+  display: inline-block;
+  width: 168px;
+  height: 33px;
+}
+.profil {
+  left: 880px;
+  width: 82px;
+}
+.notifikasi,
+.perpustkaan,
+.profil {
+  top: 41px;
+  display: inline-block;
+  height: 33px;
+}
+.notifikasi {
+  position: absolute;
+  left: 1254px;
+  width: 206px;
+}
+.perpustkaan {
+  left: 971px;
+  width: 183px;
+}
+.header,
+.perpustkaan,
+.tulis {
+  position: absolute;
+}
+.tulis {
+  top: 41px;
+  left: 1163px;
+  display: inline-block;
+  width: 82px;
+  height: 33px;
+}
+.header {
+  top: 0;
+  left: 0;
+  width: 1460px;
+  height: 115px;
+  font-size: var(--font-size-11xl);
+}
+.diarsip,
+.dibaca,
+.perpustakaan1 {
+  position: absolute;
+  display: inline-block;
+}
+.perpustakaan1 {
+  top: 152px;
+  left: 44px;
+  font-size: var(--font-size-61xl);
+  font-weight: 800;
+  width: 585px;
+  height: 108px;
+}
+.diarsip,
+.dibaca {
+  top: 276px;
+  font-size: var(--font-size-21xl);
+  width: 148px;
+  height: 52px;
+}
+.dibaca {
+  left: 69px;
+  font-weight: 800;
+}
+.diarsip {
+  left: 329px;
+  color: rgba(0, 0, 0, 0.61);
+}
+.perpustakaanChild,
+.perpustakaanItem {
+  position: absolute;
+  top: 259.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1441px;
+  height: 1px;
+}
+.perpustakaanItem {
+  top: 344.5px;
+}
+.perpustakaan {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

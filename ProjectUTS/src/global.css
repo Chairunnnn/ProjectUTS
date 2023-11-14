@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,100;1,600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-21xl: 40px;
+  --font-size-31xl: 50px;
+  --font-size-xl: 20px;
+  --font-size-61xl: 80px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-peru: #e68c3a;
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: rgba(217, 217, 217, 0.02);
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-74xl-5: 93.5px;
+  --br-mini: 15px;
+  --br-12xl: 31px;
+  --br-xl: 20px;
+}
